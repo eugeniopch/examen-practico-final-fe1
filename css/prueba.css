@@ -1,0 +1,15 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FAFAFA;;
+}
+
+.cards img{
+    width: 70px;
+    height: 70px;
+}
+.terceraSeccion h2{
+    text-align: center;
+}
