@@ -136,6 +136,7 @@ h1 {
 
 .adv {
     display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
@@ -152,20 +153,24 @@ h1 {
 
 .adv div {
     margin-top: -.6rem;
+    display: flex;
+    align-items: center;
 }
 
 .adv div h3 {
     color: var(--color-secundario);
     font-weight: 700;
     letter-spacing: 0.015em;
+    padding-left: 5%;
 }
 
-.adv div p {
+.adv p {
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    letter-spacing: -0.01em;
     color: var(--color-texto-secundario);
+    padding-left: 16.5%;
+    margin-top: -3%;
 }
 
 /* Estilos de la sección de CARDS */
@@ -337,6 +342,11 @@ footer{
 
     body {
         margin: 0;
+        background-image: none;
+    }
+
+    main {
+        background-image: none;
     }
 
     header {
@@ -397,17 +407,23 @@ footer{
         padding: 0;
     }
 
-    .adv h3 {
-        background-color: #8C8C94;
-        margin-top: 3%;
-        margin-bottom: 3%;
+    .adv div {
+        background-color: #fdefef;
+        margin-right: -1rem;
+        border-radius: 3em 0 0 3em;
+    }
+
+    .adv div h3 {
         font-size: .9rem;
+        padding-top: 0.8125em;
+        padding-bottom: 0.8125em;
+        margin: 0;
     }
 
     .adv p {
-        width: 90vw;
-        margin: 2rem 1rem 1rem -5.5rem;
         font-size: .8rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
     }
 
     /* Estilos del section recommendation */
