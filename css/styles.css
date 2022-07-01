@@ -330,6 +330,10 @@ footer{
     margin-left: .5rem;
 }
 
+.copy-resp {
+    display: none;
+}
+
 /* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
 /* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
 /* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
@@ -457,5 +461,65 @@ footer{
     .subs-banner .sec-button {
         margin-right: 0;
         margin-bottom: 6rem;
+    }
+
+    /* Section recommendation con cards version responsive */
+
+    .card2, .card3 {
+        display: none;
+    }
+
+    /* Estilos del Footer */
+
+    footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .logo-redes {
+        flex-direction: column-reverse;
+    }
+
+    .subs-copy {
+        padding-right: 5%;
+        padding-top: 4rem;
+    }
+
+    .subs-copy p {
+        display: none;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .links ul {
+        padding: 0;
+    }
+
+    .logo-redes {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+
+    .social-media {
+        padding-bottom: 3rem;
+    }
+    
+    .copy-resp {
+        display: inline-block;
+        font-size: 0.8em;
+        font-weight: 500;
+        color: #8C8C94;
     }
 }
