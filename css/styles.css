@@ -76,8 +76,22 @@ header img{
     font-weight: 500;
 }
 
+.cta:hover {
+    transition: 2ms;
+    transform: translateY(4px);
+    border: var(--color-principal) 1px solid;
+    background-color: white;
+    color: var(--color-principal);
+    cursor: pointer;
+}
+
 .hamb-menu {
     display: none;
+}
+
+nav li a:hover {
+    color: var(--color-principal);
+    cursor: pointer;
 }
 
 /* Estilos del primer SECTION */
@@ -255,6 +269,15 @@ h1 {
     margin-right: 8.5%;
 }
 
+.sec-button:hover {
+    transition: 2ms;
+    transform: translateY(2px);
+    color: white;
+    background-color: var(--color-secundario);
+    border: var(--color-secundario) solid 1px;
+    cursor: pointer;
+}
+
 /* Estilos del FOOTER */
 
 footer{
@@ -330,15 +353,23 @@ footer{
     margin-left: .5rem;
 }
 
+.go-button:hover {
+    transition: 2ms;
+    transform: translateY(4px);
+    border: var(--color-principal) 1px solid;
+    background-color: white;
+    color: var(--color-principal);
+    cursor: pointer;
+}
+
 .copy-resp {
     display: none;
 }
 
-/* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
-/* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
-/* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
-/* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
-/* AGREGAR LOS a QUE FALTAN - EN LOS ÍCONOS, EN EL NAV, ETC */
+p::first-letter {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 @media (max-width: 375px) {
     
@@ -355,6 +386,7 @@ footer{
 
     header {
         margin: 3rem 1rem 3rem 1rem;
+        background-image: url(../img/bg-simplify-section-mobile.svg)
     }
 
     .hamb-menu {
